@@ -1,10 +1,10 @@
 "use client";
 
-// biome-ignore assist/source/organizeImports: <explanation>
-import { Provider } from "react-redux";
-import { store } from "@/store";
-import QueryProvider from "@/providers/QueryProvider";
 import { SessionProvider } from "next-auth/react";
+import { Provider } from "react-redux";
+
+import QueryProvider from "@/providers/query_provider";
+import { store } from "@/store";
 
 export default function AppProviders({
   children,

@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { signOut, useSession } from 'next-auth/react'
 import { useAppDispatch, useAppSelector } from '@/store/hooks'
-import { openCart } from '@/store/slices/uiSlice'
+import { openCart } from '@/store/slices/ui_slice'
 
 export default function Header() {
   const dispatch = useAppDispatch()

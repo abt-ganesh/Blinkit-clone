@@ -3,7 +3,7 @@
 import Image from "next/image";
 import type { Product } from "@/interfaces/product";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
-import { addToCart, decrement } from "@/store/slices/cartSlice";
+import { addToCart, decrement } from "@/store/slices/cart_slice";
 
 export default function ProductCard({ product }: { product: Product }) {
   const dispatch = useAppDispatch();

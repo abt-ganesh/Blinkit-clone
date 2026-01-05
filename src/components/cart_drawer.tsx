@@ -1,9 +1,8 @@
 "use client";
 import Image from "next/image";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
-import { addToCart, decrement } from "@/store/slices/cartSlice";
-import { closeCart } from "@/store/slices/uiSlice";
-
+import { addToCart, decrement } from "@/store/slices/cart_slice";
+import { closeCart } from "@/store/slices/ui_slice";
 
 export default function CartDrawer() {
   const dispatch = useAppDispatch();

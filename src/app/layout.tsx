@@ -1,9 +1,8 @@
-// biome-ignore assist/source/organizeImports: <explanation>
 import "../styles/root-layout.css";
 
-import Header from "@/components/Header";
-import CartDrawer from "@/components/CartDrawer";
-import AppProviders from "@/providers/AppProviders";
+import CartDrawer from "@/components/cart_drawer";
+import Header from "@/components/header";
+import AppProviders from "@/providers/app_providers";
 
 export default function RootLayout({
   children,

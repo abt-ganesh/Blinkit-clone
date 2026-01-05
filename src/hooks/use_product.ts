@@ -1,7 +1,8 @@
 
-import { ProductSchema } from '@/interfaces/product'
-import { fetcher } from '@/lib/api'
-import { useQuery } from '@tanstack/react-query'
+import { useQuery } from "@tanstack/react-query";
+
+import { ProductSchema } from "@/interfaces/product";
+import { fetcher } from "@/lib/api";
 
 
 export function useProduct(id: number) {

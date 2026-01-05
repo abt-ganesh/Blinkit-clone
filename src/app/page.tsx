@@ -1,9 +1,9 @@
 "use client";
 
-import CategoriesRow from "@/components/CategoriesRow";
-import OfferBanners from "@/components/OfferBanners";
-import ProductCard from "@/components/ProductCard";
-import { useProducts } from "@/hooks/useProducts";
+import CategoriesRow from "@/components/categories_row";
+import OfferBanners from "@/components/offer_banners";
+import ProductCard from "@/components/product _card";
+import { useProducts } from "@/hooks/use_products";
 
 export default function HomePage() {
   const { data, isLoading } = useProducts();
